@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+$r_750:640/750/2/32;
+@function rem($px){
+	@return $px * $r_750 * 1rem;
+};
+
+.car{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(0);
+  width: rem(48);
+  height: rem(48);
+}
+.car_gray{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-58) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.delete_icon{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(-58);
+  width: rem(48);
+  height: rem(48);
+}
+.house{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(-116);
+  width: rem(48);
+  height: rem(48);
+}
+.house_gray{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(-174);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_crown{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(-58);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_like{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(-116);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_msg{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(-174);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_code_golden2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(-232);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_code_gray2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(-290);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_password_golden2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(0) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_password_gray2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-380) rem(0);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_phone_golden2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-116) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.icon_register_phone_gray2x{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-174) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.id{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-232) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.id_gray{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-290) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.saylove_map_pre{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-348) rem(-380);
+  width: rem(48);
+  height: rem(48);
+}
+.saylove_wap_m_nor{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(0) rem(0);
+  width: rem(180);
+  height: rem(180);
+}
+.saylove_wap_m_pre{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-190) rem(0);
+  width: rem(180);
+  height: rem(180);
+}
+.saylove_wap_w_nor{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(0) rem(-190);
+  width: rem(180);
+  height: rem(180);
+}
+.saylove_wap_w_pre{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-190) rem(-190);
+  width: rem(180);
+  height: rem(180);
+}
+.study{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(-232);
+  width: rem(48);
+  height: rem(48);
+}
+.study_gray{
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-size: rem(486) rem(428);
+  background-position: rem(-438) rem(-290);
+  width: rem(48);
+  height: rem(48);
+}
